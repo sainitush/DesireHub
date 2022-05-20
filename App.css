@@ -1,0 +1,25 @@
+.app {
+  position: relative;
+  /* height: 200vh; */
+}
+
+.app_bg {
+  position: fixed;
+  display: flex;
+  z-index: 100;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  background-color: rgba(70, 67, 67, 0.527);
+  height: 100%;
+  top: 0;
+  cursor: default;
+  /* filter: none; */
+}
+
+.authRouter__close {
+  position: fixed;
+  z-index: 600;
+  top: 22%;
+  left: 75%;
+}
